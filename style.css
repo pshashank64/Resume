@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+}
+
+.text-cen{
+    text-align: center;
+}
+
+header{
+    background-image: url("pexels-pixabay-459654.jpg");
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    
+}
+
+nav{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li{
+    
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px 0px 15px;
+}
+nav li a{
+    color: rgb(3, 146, 115);
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+nav li a:hover{
+     color: rgb(234, 248, 250);
+     background-color: rgb(83, 84, 85);
+     border-bottom: 1px solid white;
+ }
+
+.name p{
+     display: inline-block;
+     color: rgb(0, 3, 3);
+     font-size: 55px;
+     margin-top: 10vh;
+     margin-bottom: 0px;  
+}
+
+.icons img{
+    width:25px;
+    height: 25px;
+}
+.icons li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px 0px 20px
+}
+.icons li a{
+    padding: 15px;
+    border-radius: 40%;
+}
+.icons li a:hover{
+    box-shadow: 0px 0px 4px 3px rgb(61, 20, 20);
+}
+
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+#my-img{
+    width: 20rem;
+    height: 18rem;
+    margin: auto;
+    margin-top: -120px;
+    
+}
+
+#my-img img{
+    
+    width:100%;
+    height:100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 2px white;
+}
+.aboutme{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.aboutme{
+    color:rgb(73, 75, 77)
+}
+
+
+section{
+    width: 100%;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    margin-bottom: 60px;
+    font-weight: 400;
+}
+.heading span{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.heading span img{
+    width: 40px;
+    height: 40px;
+}
+.container-skills{
+    width: 60%;
+}
+
+section:nth-child(2n){
+    background-color: rgb(230, 248, 240);
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.skill-view{
+    display: inline-block;
+    margin: 20px;
+    justify-content: space-between;
+    width: 7rem;
+    height: 2rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.color{
+    background-color: rgb(49, 49, 145);
+}
+.color1{
+    background-color: rgb(122, 51, 51);
+}
+.skill-box1{
+    width: 60%;
+    height: inherit;
+}
+.skill-box2{
+    width: 80%;
+    height: inherit;
+}
+.skill-box3{
+    width: 60%;
+    height: inherit;
+}
+.skill-box4{
+    width: 90%;
+    height: inherit;
+}
+.skill-box5{
+    width: 70%;
+    height: inherit;
+}
+.skill-box6{
+    width: 40%;
+    height: inherit;
+}
+.skill-box7{
+    width: 60%;
+    height: inherit;
+}
+.skill-box8{
+    width: 60%;
+    height: inherit;
+}
+.skill-box9{
+    width: 60%;
+    height: inherit;
+}
+.skill-box10{
+    width: 80%;
+    height: inherit;
+}
+
+.name{
+    color: white;
+    padding: 8px;
+}
+
+#contact{
+    background-color: rgb(37, 28, 80);
+}
